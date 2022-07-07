@@ -1,0 +1,31 @@
+INFO     poium:logging.py:18 [32mINFO ✨ Find 0 elements through: xpath=//li//a[text()="我的应用"], describe:判断我的应用菜单是否存在[0m
+INFO     poium:logging.py:18 [32mINFO ✅ Find element: xpath=//div[@class="ant-menu-submenu-title"]/span[text()="应用管理"] [0m
+INFO     poium:logging.py:18 [32mINFO 🖱 click element: 应用管理[0m
+INFO     poium:logging.py:18 [32mINFO ✅ Find element: xpath=//li//a[text()="我的应用"] [0m
+INFO     poium:logging.py:18 [32mINFO 🖱 click element: 我的应用菜单[0m
+INFO     poium:logging.py:18 [32mINFO ✅ Find element: xpath=//*[text()="注册新应用" or text()="创建应用"] [0m
+INFO     poium:logging.py:18 [32mINFO 🖱 click element: undefined[0m
+INFO     poium:logging.py:18 [32mINFO ✅ Find element: css selector=input[accept="image/*"] [0m
+INFO     poium:logging.py:18 [32mINFO 🖋 input element: undefined[0m
+INFO     poium:logging.py:18 [32mINFO ✅ Find element: css selector=#name [0m
+INFO     poium:logging.py:18 [32mINFO 🖋 input element: undefined[0m
+INFO     poium:logging.py:18 [32mINFO ✅ Find element: id=rc_select_0 [0m
+INFO     poium:logging.py:18 [32mINFO 🖋 input element: undefined[0m
+INFO     poium:logging.py:18 [32mINFO ✅ Find element: css selector=ul[class="ant-cascader-menu"]>li:nth-child(1) [0m
+INFO     poium:logging.py:18 [32mINFO 🖱 click element: undefined[0m
+INFO     poium:logging.py:18 [32mINFO ✅ Find element: css selector=#autograph [0m
+INFO     poium:logging.py:18 [32mINFO 🖋 input element: undefined[0m
+INFO     poium:logging.py:18 [32mINFO ✅ Find element: css selector=#issueIndustry [0m
+INFO     poium:logging.py:18 [32mINFO 🖱 click element: undefined[0m
+INFO     poium:logging.py:18 [32mINFO ✅ Find element: css selector=div[title="民生"] [0m
+INFO     poium:logging.py:18 [32mINFO 🖱 click element: undefined[0m
+INFO     poium:logging.py:18 [32mINFO ✅ Find element: css selector=#phoneWhiteList [0m
+INFO     poium:logging.py:18 [32mINFO 🖋 input element: undefined[0m
+INFO     poium:logging.py:18 [32mINFO ✅ Find element: css selector=#description [0m
+INFO     poium:logging.py:18 [32mINFO 🖋 input element: undefined[0m
+INFO     poium:logging.py:18 [32mINFO ✅ Find element: xpath=//button[text()="提交"] [0m
+INFO     poium:logging.py:18 [32mINFO 🖱 click element: undefined[0m
+INFO     poium:logging.py:18 [32mINFO ✅ Find element: css selector=.ant-result-title [0m
+INFO     poium:logging.py:18 [32mINFO ✅ Find element: css selector=button[aria-label="Close"] [0m
+INFO     poium:logging.py:18 [32mINFO 🖱 click element: undefined[0m
+INFO     poium:logging.py:18 [32mINFO ✅ Find element: css selector=tbody[class="ant-table-tbody"]>tr:nth-child(2)>td:nth-child(3) [0m

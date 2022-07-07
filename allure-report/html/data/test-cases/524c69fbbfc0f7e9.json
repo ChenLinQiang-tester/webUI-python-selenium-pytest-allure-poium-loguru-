@@ -1,0 +1,141 @@
+{
+  "uid" : "524c69fbbfc0f7e9",
+  "name" : "002-创建应用",
+  "fullName" : "cases.case_enterprise.test_002_create_chatbot.TestCreateChatbot#test_create_chatbot",
+  "historyId" : "ea2561b05e5f19dd47af2351f3d25a6e",
+  "time" : {
+    "start" : 1650972558674,
+    "stop" : 1650972580000,
+    "duration" : 21326
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1650972542213,
+      "stop" : 1650972545451,
+      "duration" : 3238
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "reset",
+    "time" : {
+      "start" : 1650972558673,
+      "stop" : 1650972558673,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bb99b898df2c1a96",
+      "name" : "log",
+      "source" : "bb99b898df2c1a96.txt",
+      "type" : "text/plain",
+      "size" : 2801
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1650972580002,
+      "stop" : 1650972580002,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "reset::0",
+    "time" : {
+      "start" : 1650972580000,
+      "stop" : 1650972580001,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "02-应用"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=3)"
+  }, {
+    "name" : "tag",
+    "value" : "dependency(name='chatbot', depends=['enterprise_login'], scope='session')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases.case_enterprise"
+  }, {
+    "name" : "suite",
+    "value" : "test_002_create_chatbot"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCreateChatbot"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-3T0M3N6"
+  }, {
+    "name" : "thread",
+    "value" : "20744-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.case_enterprise.test_002_create_chatbot"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=3)", "dependency(name='chatbot', depends=['enterprise_login'], scope='session')" ]
+  },
+  "source" : "524c69fbbfc0f7e9.json",
+  "parameterValues" : [ ]
+}

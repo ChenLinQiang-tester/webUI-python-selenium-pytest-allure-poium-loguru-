@@ -1,0 +1,16 @@
+[ {
+  "values" : [ "win10" ],
+  "name" : "systemVersion"
+}, {
+  "values" : [ "3.7.4" ],
+  "name" : "pythonVersion"
+}, {
+  "values" : [ "https://test.fontdo.com/enterprise//#/main/home" ],
+  "name" : "baseUrl"
+}, {
+  "values" : [ "fontdo 5G MaaP" ],
+  "name" : "projectName"
+}, {
+  "values" : [ "chen" ],
+  "name" : "author"
+} ]

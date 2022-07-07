@@ -1,0 +1,39 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-3T0M3N6",
+    "children" : [ {
+      "name" : "20744-MainThread",
+      "children" : [ {
+        "name" : "001-登录企业平台",
+        "uid" : "f3bfd1ac67e97d8b",
+        "parentUid" : "40e444cf40f1ed96e2369b8bd24e0fa0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650972545452,
+          "stop" : 1650972558667,
+          "duration" : 13215
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "002-创建应用",
+        "uid" : "524c69fbbfc0f7e9",
+        "parentUid" : "40e444cf40f1ed96e2369b8bd24e0fa0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650972558674,
+          "stop" : 1650972580000,
+          "duration" : 21326
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "40e444cf40f1ed96e2369b8bd24e0fa0"
+    } ],
+    "uid" : "17d4112923370f98de74aab8316e7803"
+  } ]
+}
