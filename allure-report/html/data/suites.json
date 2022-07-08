@@ -9,13 +9,13 @@
         "name" : "TestEnterPrise",
         "children" : [ {
           "name" : "001-登录企业平台",
-          "uid" : "f3bfd1ac67e97d8b",
+          "uid" : "e7e9f092aaed9e1d",
           "parentUid" : "7017c88b32497b2976525652b7ba8895",
           "status" : "passed",
           "time" : {
-            "start" : 1650972545452,
-            "stop" : 1650972558667,
-            "duration" : 13215
+            "start" : 1657295662849,
+            "stop" : 1657295666959,
+            "duration" : 4110
           },
           "flaky" : false,
           "newFailed" : false,
@@ -24,27 +24,6 @@
         "uid" : "7017c88b32497b2976525652b7ba8895"
       } ],
       "uid" : "ae740732b83537cc3309693a78e70011"
-    }, {
-      "name" : "test_002_create_chatbot",
-      "children" : [ {
-        "name" : "TestCreateChatbot",
-        "children" : [ {
-          "name" : "002-创建应用",
-          "uid" : "524c69fbbfc0f7e9",
-          "parentUid" : "26c2c0e1477f438f03e05ee609215785",
-          "status" : "passed",
-          "time" : {
-            "start" : 1650972558674,
-            "stop" : 1650972580000,
-            "duration" : 21326
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        } ],
-        "uid" : "26c2c0e1477f438f03e05ee609215785"
-      } ],
-      "uid" : "9855c857a1f1ad377a6faf8aa156d689"
     } ],
     "uid" : "650e3bc51ffe184027759762b8d6705f"
   } ]

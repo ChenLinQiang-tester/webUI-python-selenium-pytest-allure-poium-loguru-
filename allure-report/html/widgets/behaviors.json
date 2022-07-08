@@ -1,19 +1,8 @@
 {
-  "total" : 2,
+  "total" : 1,
   "items" : [ {
     "uid" : "375c31720fec9070cfd5931f3718d3f4",
     "name" : "01-登录",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "b1279bc510adb28fc71574184426bf8e",
-    "name" : "02-应用",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

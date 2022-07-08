@@ -2,18 +2,18 @@
 @author:chen
 @data:2021-7-29
 """
+from time import sleep
+
 import allure
 import pytest
+from selenium.webdriver import Keys
 
-from time import sleep
-from selenium.webdriver.common.keys import Keys
-
+from cases.case_enterprise.config_ep import RunConfigEp
 from config import RunConfig
 from page.page_ep.page_login import PageEnterpriseLogin
-from tool.get_code import get_code
-from config_ep import RunConfigEp
 from configparser import ConfigParser
 
+from utils.ocrUtils.get_code import get_code
 
 conf = ConfigParser()
 conf.read(RunConfig.base_path+'/data/pytest.ini')
@@ -28,8 +28,11 @@ class TestEnterPrise:
     def test_enterprise_login(self, browser, base_url):
         page_ep_login = PageEnterpriseLogin(browser)
         page_ep_login.get(base_url)
-        page_ep_login.username = conf["user"]["username"]
-        page_ep_login.password = conf["user"]["password"]
+
+        def accout():
+            page_ep_login.username = conf["user"]["username"]
+            page_ep_login.password = conf["user"]["password"]
+        with allure.step("step2：输入密码"):
         page_ep_login.agreement.click()
         while True:
             while True:

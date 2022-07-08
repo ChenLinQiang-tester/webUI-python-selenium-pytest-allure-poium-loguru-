@@ -9,7 +9,7 @@ from time import sleep
 from selenium.webdriver.common.keys import Keys
 from config import RunConfig
 from page.page_pf.page_login import PageEnterpriseLogin
-from tool.get_code import get_code
+from utils.ocrUtils.get_code import get_code
 from config_pf import RunConfigPf
 from configparser import ConfigParser
 

@@ -1,20 +1,10 @@
 [ {
-  "uid" : "524c69fbbfc0f7e9",
-  "name" : "002-创建应用",
-  "time" : {
-    "start" : 1650972558674,
-    "stop" : 1650972580000,
-    "duration" : 21326
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f3bfd1ac67e97d8b",
+  "uid" : "e7e9f092aaed9e1d",
   "name" : "001-登录企业平台",
   "time" : {
-    "start" : 1650972545452,
-    "stop" : 1650972558667,
-    "duration" : 13215
+    "start" : 1657295662849,
+    "stop" : 1657295666959,
+    "duration" : 4110
   },
   "status" : "passed",
   "severity" : "normal"

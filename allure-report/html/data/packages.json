@@ -2,42 +2,21 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "cases.case_enterprise",
+    "name" : "cases.case_enterprise.test_001_login",
     "children" : [ {
-      "name" : "test_001_login",
-      "children" : [ {
-        "name" : "001-登录企业平台",
-        "uid" : "f3bfd1ac67e97d8b",
-        "parentUid" : "330584580306d308506da6321dd049e6",
-        "status" : "passed",
-        "time" : {
-          "start" : 1650972545452,
-          "stop" : 1650972558667,
-          "duration" : 13215
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "330584580306d308506da6321dd049e6"
-    }, {
-      "name" : "test_002_create_chatbot",
-      "children" : [ {
-        "name" : "002-创建应用",
-        "uid" : "524c69fbbfc0f7e9",
-        "parentUid" : "a0eb33c9ca4a2074a6fc20505a5357cf",
-        "status" : "passed",
-        "time" : {
-          "start" : 1650972558674,
-          "stop" : 1650972580000,
-          "duration" : 21326
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "a0eb33c9ca4a2074a6fc20505a5357cf"
+      "name" : "001-登录企业平台",
+      "uid" : "e7e9f092aaed9e1d",
+      "parentUid" : "330584580306d308506da6321dd049e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657295662849,
+        "stop" : 1657295666959,
+        "duration" : 4110
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
     } ],
-    "uid" : "cases.case_enterprise"
+    "uid" : "cases.case_enterprise.test_001_login"
   } ]
 }

@@ -5,35 +5,18 @@
     "name" : "01-登录",
     "children" : [ {
       "name" : "001-登录企业平台",
-      "uid" : "f3bfd1ac67e97d8b",
+      "uid" : "e7e9f092aaed9e1d",
       "parentUid" : "375c31720fec9070cfd5931f3718d3f4",
       "status" : "passed",
       "time" : {
-        "start" : 1650972545452,
-        "stop" : 1650972558667,
-        "duration" : 13215
+        "start" : 1657295662849,
+        "stop" : 1657295666959,
+        "duration" : 4110
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     } ],
     "uid" : "375c31720fec9070cfd5931f3718d3f4"
-  }, {
-    "name" : "02-应用",
-    "children" : [ {
-      "name" : "002-创建应用",
-      "uid" : "524c69fbbfc0f7e9",
-      "parentUid" : "b1279bc510adb28fc71574184426bf8e",
-      "status" : "passed",
-      "time" : {
-        "start" : 1650972558674,
-        "stop" : 1650972580000,
-        "duration" : 21326
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    } ],
-    "uid" : "b1279bc510adb28fc71574184426bf8e"
   } ]
 }

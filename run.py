@@ -1,6 +1,6 @@
+import os
 import sys
 import time
-import os
 import pytest
 
 from os.path import join
@@ -18,11 +18,11 @@ html_path = join(report_path, 'html')                     # 测试报告html文�
 
 sys.path.insert(0, RunConfig.base_path)  # 将项目路径添加到系统
 
-pytest.main(["-v", "-s", '-k', "001 or 002",
+pytest.main(["-v", "-s", '-k', "001",
              "--reruns=2",
              "--reruns-delay=2",
              "--alluredir="+report_path,
              "--clean-alluredir"])
 # 复制测试环境信息到测试报告目录下
 copyfile(RunConfig.base_path+"/data/environment.properties", RunConfig.base_path+"/allure-report/environment.properties")
-# os.system('allure generate '+report_path +' --clean -o '+html_path)  # -o 参数是将报告内容保存到指定的文件夹下 -c接目录，清理上次的报告数据
+os.system('allure generate '+report_path +' --clean -o '+html_path)  # -o 参数是将报告内容保存到指定的文件夹下 -c接目录，清理上次的报告数据

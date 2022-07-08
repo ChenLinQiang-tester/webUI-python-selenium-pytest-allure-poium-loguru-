@@ -10,7 +10,7 @@ from cases.case_enterprise.config_ep import RunConfigEp
 from page.page_ep.page_password import PagePassword
 from config import RunConfig
 from page.page_ep.page_login import PageEnterpriseLogin
-from tool.get_code import get_code
+from utils.ocrUtils.get_code import get_code
 from selenium import webdriver
 
 

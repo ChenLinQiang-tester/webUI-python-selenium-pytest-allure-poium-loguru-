@@ -2,38 +2,25 @@
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "name" : "timeline",
   "children" : [ {
-    "name" : "DESKTOP-3T0M3N6",
+    "name" : "DESKTOP-O8KGD51",
     "children" : [ {
-      "name" : "20744-MainThread",
+      "name" : "2144-MainThread",
       "children" : [ {
         "name" : "001-登录企业平台",
-        "uid" : "f3bfd1ac67e97d8b",
-        "parentUid" : "40e444cf40f1ed96e2369b8bd24e0fa0",
+        "uid" : "e7e9f092aaed9e1d",
+        "parentUid" : "732a2943186d9a3b5ed5e21959a0e9de",
         "status" : "passed",
         "time" : {
-          "start" : 1650972545452,
-          "stop" : 1650972558667,
-          "duration" : 13215
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "002-创建应用",
-        "uid" : "524c69fbbfc0f7e9",
-        "parentUid" : "40e444cf40f1ed96e2369b8bd24e0fa0",
-        "status" : "passed",
-        "time" : {
-          "start" : 1650972558674,
-          "stop" : 1650972580000,
-          "duration" : 21326
+          "start" : 1657295662849,
+          "stop" : 1657295666959,
+          "duration" : 4110
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "40e444cf40f1ed96e2369b8bd24e0fa0"
+      "uid" : "732a2943186d9a3b5ed5e21959a0e9de"
     } ],
-    "uid" : "17d4112923370f98de74aab8316e7803"
+    "uid" : "1ac11728bfeb96744d9b85267591f904"
   } ]
 }
