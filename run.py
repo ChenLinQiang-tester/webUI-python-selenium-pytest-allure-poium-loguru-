@@ -19,7 +19,7 @@ html_path = join(report_path, 'html')                     # 测试报告html文�
 sys.path.insert(0, RunConfig.base_path)  # 将项目路径添加到系统
 
 pytest.main(["-v", "-s", '-k', "001",
-             "--reruns=2",
+             "--reruns=0",
              "--reruns-delay=2",
              "--alluredir="+report_path,
              "--clean-alluredir"])

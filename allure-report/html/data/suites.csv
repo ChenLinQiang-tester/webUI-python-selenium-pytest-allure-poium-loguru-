@@ -1,2 +1,2 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Fri Jul 08 23:54:22 CST 2022","Fri Jul 08 23:54:26 CST 2022","4110","cases.case_enterprise","test_001_login","TestEnterPrise","","","001-登录企业平台",""
+"broken","Sun Jul 10 19:37:10 CST 2022","Sun Jul 10 19:37:56 CST 2022","46493","cases.case_enterprise","test_001_login","TestEnterPrise","","","001-登录企业平台",""

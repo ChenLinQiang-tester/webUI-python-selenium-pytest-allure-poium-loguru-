@@ -2,19 +2,20 @@
   "3fb2344fb152ae5b672b73b9c39b82d6" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e7e9f092aaed9e1d",
-      "status" : "passed",
+      "uid" : "69262669761b712d",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
       "time" : {
-        "start" : 1657295662849,
-        "stop" : 1657295666959,
-        "duration" : 4110
+        "start" : 1657453030292,
+        "stop" : 1657453076785,
+        "duration" : 46493
       }
     } ]
   }

@@ -22,9 +22,9 @@ class RunConfig:
     # 项目路径
     base_path = base_path
     # 企业平台登录url
-    ep_url = "https://5G.fontdo.com//enterprise//#/login"
+    ep_url = "https://5G.fontdo.com/test/enterprise//#/login"
     # 管理平台登录URL
-    pf_url = "http://ttmis.research.itcast.cn/#/home"
+    pf_url = ""
 
     def set_rerun(self, num):
         self.rerun = num

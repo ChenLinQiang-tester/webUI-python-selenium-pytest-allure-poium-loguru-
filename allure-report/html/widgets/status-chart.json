@@ -1,11 +1,11 @@
 [ {
-  "uid" : "e7e9f092aaed9e1d",
+  "uid" : "69262669761b712d",
   "name" : "001-登录企业平台",
   "time" : {
-    "start" : 1657295662849,
-    "stop" : 1657295666959,
-    "duration" : 4110
+    "start" : 1657453030292,
+    "stop" : 1657453076785,
+    "duration" : 46493
   },
-  "status" : "passed",
+  "status" : "broken",
   "severity" : "normal"
 } ]
