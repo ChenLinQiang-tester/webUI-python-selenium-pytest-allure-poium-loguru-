@@ -1,21 +1,21 @@
 {
   "3fb2344fb152ae5b672b73b9c39b82d6" : {
     "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
+      "failed" : 1,
+      "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "69262669761b712d",
-      "status" : "broken",
-      "statusDetails" : "IndexError: list index out of range",
+      "uid" : "61bbd3637a5f929",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 用户名或密码输入错误\nassert False",
       "time" : {
-        "start" : 1657453030292,
-        "stop" : 1657453076785,
-        "duration" : 46493
+        "start" : 1657727837003,
+        "stop" : 1657727850537,
+        "duration" : 13534
       }
     } ]
   }

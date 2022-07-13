@@ -6,7 +6,7 @@ import allure
 import pytest
 from selenium.webdriver import Keys
 
-from cases.case_enterprise.config_ep import RunConfigEp
+from poium.common.logging import Logger
 from config import RunConfig
 from page.page_ep.page_login import PageEnterpriseLogin
 from configparser import ConfigParser
@@ -54,7 +54,7 @@ class TestEnterPrise:
                     if len(code) == 6 and code.isdigit():
                         break
                     page_ep_login.reflush_code.click()
-                page_ep_login.number = Keys.CONTROL, 'a'
+                page_ep_login.number = Keys.CONTROL, "a"
                 page_ep_login.number = code
                 page_ep_login.login_btn.click()
                 notice = page_ep_login.notice.text
@@ -63,18 +63,16 @@ class TestEnterPrise:
                 elif notice == "登录成功！":
                     break
                 else:
+                    Logger().error(notice)
                     assert False, notice
-        assert page_ep_login.get_url == "https://5g.fontdo.com/enterprise//#/"
+        assert page_ep_login.get_url == "https://5g.fontdo.com/test/enterprise//#/"
         with allure.step("关闭登录提示"):
             page_ep_login.know.click()
         with allure.step("获取断言数据：邮箱账号"):
             email_text = page_ep_login.email.text
         assert email_text == conf["user"]["username"]
-        with allure.step("后置-获取账号余额"):
+        with allure.step("设置缓存-账号余额"):
             self.balance = page_ep_login.balance[0].text.replace(",", "")+page_ep_login.balance[1].text
-
-    def teardown_method(self):
-        with allure.step("缓存账号余额"):
             conf.set("Balance", "balance", self.balance)
             conf.write(open(RunConfig.base_path+'/data/pytest.ini', 'r+'))
 

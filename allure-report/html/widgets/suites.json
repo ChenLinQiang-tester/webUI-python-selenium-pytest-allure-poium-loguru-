@@ -4,8 +4,8 @@
     "uid" : "650e3bc51ffe184027759762b8d6705f",
     "name" : "cases.case_enterprise",
     "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
+      "failed" : 1,
+      "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,

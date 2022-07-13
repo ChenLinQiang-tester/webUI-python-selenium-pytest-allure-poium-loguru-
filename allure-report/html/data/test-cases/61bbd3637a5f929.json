@@ -1,0 +1,256 @@
+{
+  "uid" : "61bbd3637a5f929",
+  "name" : "001-登录企业平台",
+  "fullName" : "cases.case_enterprise.test_001_login.TestEnterPrise#test_enterprise_login",
+  "historyId" : "3fb2344fb152ae5b672b73b9c39b82d6",
+  "time" : {
+    "start" : 1657727837003,
+    "stop" : 1657727850537,
+    "duration" : 13534
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: 用户名或密码输入错误\nassert False",
+  "statusTrace" : "self = <test_001_login.TestEnterPrise object at 0x00000234AF2C46D0>\nbrowser = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"d090f75c6a8e2a5724476cf9b42d5546\")>\nbase_url = 'https://5g.fontdo.com/test/enterprise//#/login'\n\n    @pytest.mark.run(order=1)\n    @allure.title('001-登录企业平台')\n    @pytest.mark.dependency(name='enterprise_login', scope='session')\n    def test_enterprise_login(self, browser, base_url):\n        page_ep_login = PageEnterpriseLogin(browser)\n        page_ep_login.open(base_url)\n        with allure.step(\"输入账号:{}\".format(login_email)):\n            page_ep_login.username = login_email\n        with allure.step(\"输入密码:{}\".format(login_password)):\n            page_ep_login.password = login_password\n        with allure.step(\"勾选服务协议\"):\n            page_ep_login.agreement.click()\n        with allure.step(\"输入图形验证码并登录验证\"):\n            while True:\n                while True:\n                    code_url = page_ep_login.number_img.get_attribute(\"src\")\n                    code = get_code(code_url)\n                    if len(code) == 6 and code.isdigit():\n                        break\n                    page_ep_login.reflush_code.click()\n                page_ep_login.number = Keys.CONTROL, \"a\"\n                page_ep_login.number = code\n                page_ep_login.login_btn.click()\n                notice = page_ep_login.notice.text\n                if notice == \"图形验证码输入有误，请重新输入\":\n                    continue\n                elif notice == \"登录成功！\":\n                    break\n                else:\n                    Logger().error(notice)\n>                   assert False, notice\nE                   AssertionError: 用户名或密码输入错误\nE                   assert False\n\ncases\\case_enterprise\\test_001_login.py:67: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1657727834980,
+      "stop" : 1657727837002,
+      "duration" : 2022
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1657727837002,
+      "stop" : 1657727837002,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "reset",
+    "time" : {
+      "start" : 1657727837002,
+      "stop" : 1657727837002,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1657727834864,
+      "stop" : 1657727834980,
+      "duration" : 116
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: 用户名或密码输入错误\nassert False",
+    "statusTrace" : "self = <test_001_login.TestEnterPrise object at 0x00000234AF2C46D0>\nbrowser = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"d090f75c6a8e2a5724476cf9b42d5546\")>\nbase_url = 'https://5g.fontdo.com/test/enterprise//#/login'\n\n    @pytest.mark.run(order=1)\n    @allure.title('001-登录企业平台')\n    @pytest.mark.dependency(name='enterprise_login', scope='session')\n    def test_enterprise_login(self, browser, base_url):\n        page_ep_login = PageEnterpriseLogin(browser)\n        page_ep_login.open(base_url)\n        with allure.step(\"输入账号:{}\".format(login_email)):\n            page_ep_login.username = login_email\n        with allure.step(\"输入密码:{}\".format(login_password)):\n            page_ep_login.password = login_password\n        with allure.step(\"勾选服务协议\"):\n            page_ep_login.agreement.click()\n        with allure.step(\"输入图形验证码并登录验证\"):\n            while True:\n                while True:\n                    code_url = page_ep_login.number_img.get_attribute(\"src\")\n                    code = get_code(code_url)\n                    if len(code) == 6 and code.isdigit():\n                        break\n                    page_ep_login.reflush_code.click()\n                page_ep_login.number = Keys.CONTROL, \"a\"\n                page_ep_login.number = code\n                page_ep_login.login_btn.click()\n                notice = page_ep_login.notice.text\n                if notice == \"图形验证码输入有误，请重新输入\":\n                    continue\n                elif notice == \"登录成功！\":\n                    break\n                else:\n                    Logger().error(notice)\n>                   assert False, notice\nE                   AssertionError: 用户名或密码输入错误\nE                   assert False\n\ncases\\case_enterprise\\test_001_login.py:67: AssertionError",
+    "steps" : [ {
+      "name" : "输入账号:chenlq@fontdo.com",
+      "time" : {
+        "start" : 1657727839113,
+        "stop" : 1657727840402,
+        "duration" : 1289
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "输入密码:Fontdo@tes",
+      "time" : {
+        "start" : 1657727840402,
+        "stop" : 1657727841739,
+        "duration" : 1337
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "勾选服务协议",
+      "time" : {
+        "start" : 1657727841739,
+        "stop" : 1657727842852,
+        "duration" : 1113
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "输入图形验证码并登录验证",
+      "time" : {
+        "start" : 1657727842852,
+        "stop" : 1657727850537,
+        "duration" : 7685
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: 用户名或密码输入错误\nassert False\n",
+      "statusTrace" : "  File \"E:\\文档\\MyRepository\\ui-automation-framework\\cases\\case_enterprise\\test_001_login.py\", line 67, in test_enterprise_login\n    assert False, notice\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "添加失败截图...",
+      "time" : {
+        "start" : 1657727850902,
+        "stop" : 1657727851213,
+        "duration" : 311
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1c93ab5216d7605d",
+        "name" : "失败截图",
+        "source" : "1c93ab5216d7605d.png",
+        "type" : "image/png",
+        "size" : 159610
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1657727852788,
+      "stop" : 1657727852788,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "reset::0",
+    "time" : {
+      "start" : 1657727851222,
+      "stop" : 1657727852786,
+      "duration" : 1564
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "01-登录"
+  }, {
+    "name" : "tag",
+    "value" : "dependency(name='enterprise_login', scope='session')"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases.case_enterprise"
+  }, {
+    "name" : "suite",
+    "value" : "test_001_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestEnterPrise"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-O8KGD51"
+  }, {
+    "name" : "thread",
+    "value" : "9928-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.case_enterprise.test_001_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "dependency(name='enterprise_login', scope='session')", "run(order=1)" ]
+  },
+  "source" : "61bbd3637a5f929.json",
+  "parameterValues" : [ ]
+}

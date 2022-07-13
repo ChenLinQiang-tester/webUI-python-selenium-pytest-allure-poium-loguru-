@@ -6,7 +6,7 @@ with open(RunConfig.base_path + '/tool/code_file/img_name.txt', 'r') as f:
 
 
 class RunConfigEp:
-    ep_url = "https://5g.fontdo.com/enterprise//#/login"
+    ep_url = "https://5g.fontdo.com/test/enterprise//#/login"
     login_success_url = 'https://5g.fontdo.com/enterprise//#/'
     img_name = img_name
     img_path = RunConfig.base_path+'/tool/code_file/'+img_name

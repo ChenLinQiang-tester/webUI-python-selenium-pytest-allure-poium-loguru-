@@ -8,7 +8,7 @@ class PageEnterpriseLogin(Page):
     number_img = Element(css='span>div>img[class="ant-image-img"]', describe="图片验证码")
     agreement = Element(id_='agreement', describe="服务条款")
     notice = Element(xpath='//div[@class="ant-message-notice-content"]/div/span[2]', describe='错误提示')
-    email = Element(xpath='//span[@aria-label="maila"]/..', describe="验证账号")
+    email = Element(xpath='//span[@aria-label="mail"]/..', describe="验证账号")
     reflush_code = Element(css='button>span[aria-label="reload"]', describe="刷新验证码")
     login_btn = Element(css='button[type="submit"]', describe="登录按钮")
     know = Element(css='button[type="button"][class="ant-btn ant-btn-primary"]', describe='知道了')

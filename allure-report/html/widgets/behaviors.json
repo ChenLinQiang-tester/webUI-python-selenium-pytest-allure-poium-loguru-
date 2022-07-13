@@ -4,8 +4,8 @@
     "uid" : "375c31720fec9070cfd5931f3718d3f4",
     "name" : "01-登录",
     "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
+      "failed" : 1,
+      "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,

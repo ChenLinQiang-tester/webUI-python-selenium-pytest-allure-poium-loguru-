@@ -49,6 +49,8 @@ def browser():
 # 判断运行结果并处理
 @pytest.fixture(autouse=True)
 def reset():
+    # 控制台打印与用例路径换行
+    print()
     yield
     # print("运行结果：" + case_result)
     if case_result != 'passed':

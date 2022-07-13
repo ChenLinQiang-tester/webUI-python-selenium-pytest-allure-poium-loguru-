@@ -1,3 +1,0 @@
-WARNING  urllib3.connectionpool:connectionpool.py:304 Connection pool is full, discarding connection: localhost
-WARNING  urllib3.connectionpool:connectionpool.py:304 Connection pool is full, discarding connection: localhost
-WARNING  urllib3.connectionpool:connectionpool.py:304 Connection pool is full, discarding connection: localhost
