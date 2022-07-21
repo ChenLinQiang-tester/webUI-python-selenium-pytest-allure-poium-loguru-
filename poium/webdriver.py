@@ -7,6 +7,7 @@ from selenium.common.exceptions import StaleElementReferenceException
 from selenium.common.exceptions import NoAlertPresentException
 from appium.webdriver.common.touch_action import TouchAction as MobileTouchAction
 
+from poium.common import logging
 from poium.page_objects import PageObject
 from poium.common.keyboard import KeyEvent
 
@@ -460,3 +461,25 @@ class Page(PageObject):
             page.wait_page_load_timeout(10)
         """
         self.driver.set_page_load_timeout(time_to_wait)
+
+    def assert_element_exists(self, r1, r2):
+        """
+        Asserts that the element exists on the current page
+
+        Args：
+            sleep(int): sleep time
+            element(object): element object
+            describe(str): Assertion description information
+            timeout(int): Maximum waiting time
+        """
+
+
+        # element_exists = element.exists(timeout)
+        # self.screenshots(describe="断言")
+        logging.info("预期结果: " + r1 + "==" + r2)
+        try:
+            assert r1 == r2
+            logging.info("断言成功: " + r1 + "==" + r2)
+        except AssertionError:
+            logging.warning("断言失败: " + r1 + "!=" + r2)
+            raise

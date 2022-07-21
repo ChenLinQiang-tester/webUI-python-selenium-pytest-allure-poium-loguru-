@@ -5,13 +5,13 @@
     "name" : "cases.case_enterprise.test_001_login",
     "children" : [ {
       "name" : "001-登录企业平台",
-      "uid" : "61bbd3637a5f929",
+      "uid" : "c77226fe47066a54",
       "parentUid" : "330584580306d308506da6321dd049e6",
       "status" : "failed",
       "time" : {
-        "start" : 1657727837003,
-        "stop" : 1657727850537,
-        "duration" : 13534
+        "start" : 1658159823958,
+        "stop" : 1658159848333,
+        "duration" : 24375
       },
       "flaky" : false,
       "newFailed" : false,

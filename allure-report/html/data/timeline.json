@@ -4,22 +4,22 @@
   "children" : [ {
     "name" : "DESKTOP-O8KGD51",
     "children" : [ {
-      "name" : "9928-MainThread",
+      "name" : "11056-MainThread",
       "children" : [ {
         "name" : "001-登录企业平台",
-        "uid" : "61bbd3637a5f929",
-        "parentUid" : "e2078e46819545e0224ceff6152ca372",
+        "uid" : "c77226fe47066a54",
+        "parentUid" : "edbc16876fa54bd796fdfa450ee93574",
         "status" : "failed",
         "time" : {
-          "start" : 1657727837003,
-          "stop" : 1657727850537,
-          "duration" : 13534
+          "start" : 1658159823958,
+          "stop" : 1658159848333,
+          "duration" : 24375
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "e2078e46819545e0224ceff6152ca372"
+      "uid" : "edbc16876fa54bd796fdfa450ee93574"
     } ],
     "uid" : "1ac11728bfeb96744d9b85267591f904"
   } ]

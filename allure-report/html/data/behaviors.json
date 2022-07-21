@@ -5,13 +5,13 @@
     "name" : "01-登录",
     "children" : [ {
       "name" : "001-登录企业平台",
-      "uid" : "61bbd3637a5f929",
+      "uid" : "c77226fe47066a54",
       "parentUid" : "375c31720fec9070cfd5931f3718d3f4",
       "status" : "failed",
       "time" : {
-        "start" : 1657727837003,
-        "stop" : 1657727850537,
-        "duration" : 13534
+        "start" : 1658159823958,
+        "stop" : 1658159848333,
+        "duration" : 24375
       },
       "flaky" : false,
       "newFailed" : false,

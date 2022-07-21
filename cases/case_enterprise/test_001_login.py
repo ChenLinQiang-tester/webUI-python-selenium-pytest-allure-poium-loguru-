@@ -6,7 +6,7 @@ import allure
 import pytest
 from selenium.webdriver import Keys
 
-from poium.common.logging import Logger
+from poium.common import logging
 from config import RunConfig
 from page.page_ep.page_login import PageEnterpriseLogin
 from configparser import ConfigParser
@@ -24,15 +24,15 @@ class TestEnterPrise:
     """
     名称：登录企业平台
     步骤：
-    1.输入账号
-    2.输入密码
-    3.勾选服务协议
-    4.输入图形验证码并点击登录
-    5.关闭登录提示
-    6.后置-获取账号余额
+        1.输入账号
+        2.输入密码
+        3.勾选服务协议
+        4.输入图形验证码并点击登录
+        5.关闭登录提示
+        6.后置-获取账号余额
     检查点：
-    * 检查登录成功页面url是否正确。
-    * 检查登录成功页面中邮箱元素文本是否正确。
+        * 检查登录成功页面url是否正确。
+        * 检查登录成功页面中邮箱元素文本是否正确。
     """
     @pytest.mark.run(order=1)
     @allure.title('001-登录企业平台')
@@ -63,14 +63,16 @@ class TestEnterPrise:
                 elif notice == "登录成功！":
                     break
                 else:
-                    Logger().error(notice)
+                    logging.error(notice)
                     assert False, notice
         assert page_ep_login.get_url == "https://5g.fontdo.com/test/enterprise//#/"
         with allure.step("关闭登录提示"):
             page_ep_login.know.click()
         with allure.step("获取断言数据：邮箱账号"):
             email_text = page_ep_login.email.text
+        page_ep_login.assert_element_exists(email_text, "chenlinq")
         assert email_text == conf["user"]["username"]
+        assert 1234 == conf["user"]["username"]
         with allure.step("设置缓存-账号余额"):
             self.balance = page_ep_login.balance[0].text.replace(",", "")+page_ep_login.balance[1].text
             conf.set("Balance", "balance", self.balance)

@@ -16,8 +16,10 @@ class Logger:
     def set_level(self, colorlog: bool = True, format: str = None, level: str = "DEBUG"):
         if format is None:
             format = self._console_format
-        logger.remove()
-        logger.add(sys.stderr, level=level, colorize=colorlog, format=format)
+        # logger.remove()
+        # logger.add(sys.stderr, level=level, colorize=colorlog, format=format)
+        print("生成日志文件")
+        logger.add("test_{time}.log")
 
     def trace(self, msg: str):
         if config.printLog is True:

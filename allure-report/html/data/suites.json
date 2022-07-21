@@ -9,13 +9,13 @@
         "name" : "TestEnterPrise",
         "children" : [ {
           "name" : "001-登录企业平台",
-          "uid" : "61bbd3637a5f929",
+          "uid" : "c77226fe47066a54",
           "parentUid" : "7017c88b32497b2976525652b7ba8895",
           "status" : "failed",
           "time" : {
-            "start" : 1657727837003,
-            "stop" : 1657727850537,
-            "duration" : 13534
+            "start" : 1658159823958,
+            "stop" : 1658159848333,
+            "duration" : 24375
           },
           "flaky" : false,
           "newFailed" : false,
