@@ -1,37 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a510c549-b731-4ea9-938f-e097f54e5573" name="Changes" comment="">
+    <list default="true" id="a510c549-b731-4ea9-938f-e097f54e5573" name="Changes" comment="Changes">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ui-automation-framework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ui-automation-framework.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/140c5f6f-e811-406e-9876-d90999c557a0-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/2c3c8dda-35bd-455f-945b-49486f751e33-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/50d8d64f-ab02-4418-90d3-f9025f4e1302-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/5ff921ca-414c-46bc-9eb5-cfc4cd5e909b-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/61ad8da5-2b94-4753-bdea-0572a3412296-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/bc3ed4be-767b-47ad-b86f-3ce8d822e8cb-attachment.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/html/data/attachments/1c93ab5216d7605d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/27fa1aa5-9625-42a7-8f64-010c9bc58c34-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/6fcfa5d6-f382-4eb3-8f4c-056194ad3010-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/86bf875a-a9ff-44fe-aa14-f75ac696094a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/91e22a99-9cd5-47c8-a697-57d7c9a71efb-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/a399fb5e-e475-4d5b-88cb-f2ed742a4aa8-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/e88b0e89-d9c5-4049-91bc-9d5085379d98-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/html/data/attachments/d811bcde6c3f844b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/html/data/behaviors.csv" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/html/data/behaviors.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/html/data/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/html/data/behaviors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/html/data/categories.csv" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/html/data/categories.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/html/data/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/html/data/categories.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/html/data/packages.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/html/data/packages.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/html/data/suites.csv" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/html/data/suites.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/html/data/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/html/data/suites.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/html/data/test-cases/61bbd3637a5f929.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/html/data/test-cases/c77226fe47066a54.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/html/data/timeline.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/html/data/timeline.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/html/export/influxDbData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/html/export/influxDbData.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/html/export/prometheusData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/html/export/prometheusData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/html/history/categories-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/html/history/categories-trend.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/html/history/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/html/history/duration-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/html/history/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/html/history/history-trend.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/html/history/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/html/history/history.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/html/widgets/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/html/widgets/behaviors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/html/widgets/categories-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/html/widgets/categories-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/html/widgets/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/html/widgets/categories.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/html/widgets/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/html/widgets/duration-trend.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/html/widgets/duration.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/html/widgets/duration.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/html/widgets/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/html/widgets/history-trend.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/html/widgets/severity.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/html/widgets/severity.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/html/widgets/status-chart.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/html/widgets/status-chart.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/html/widgets/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/html/widgets/suites.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/html/widgets/summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/html/widgets/summary.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cases/case_enterprise/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/case_enterprise/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cases/case_enterprise/test_001_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/case_enterprise/test_001_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cases/case_enterprise/test_003_up_media.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/case_enterprise/test_003_up_media.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/data/pytest.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/page_ep/page_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/page_ep/page_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poium/common/logging.py" beforeDir="false" afterPath="$PROJECT_DIR$/poium/common/logging.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/failures" beforeDir="false" afterPath="$PROJECT_DIR$/failures" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/page_ep/page_media.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/page_ep/page_media.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/poium/webdriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/poium/webdriver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp.py" beforeDir="false" afterPath="$PROJECT_DIR$/temp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tool/code_file/2022-07-18 23.56.59.png" beforeDir="false" afterPath="$PROJECT_DIR$/tool/code_file/2022-07-18 23.56.59.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tool/code_file/img_name.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tool/code_file/img_name.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,15 +70,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/文档/MyRepository/ui-automation-framework&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
-  }
-}</component>
-  <component name="RunManager" selected="Python.run">
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python tests.pytest in test_003_up_media.py">
     <configuration name="logging" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ui-automation-framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -129,9 +140,43 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest in test_001_login.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="ui-automation-framework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cases/case_enterprise" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/cases/case_enterprise/test_001_login.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_003_up_media.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="ui-automation-framework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cases/case_enterprise" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/cases/case_enterprise/test_003_up_media.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in test_003_up_media.py" />
         <item itemvalue="Python.run" />
+        <item itemvalue="Python tests.pytest in test_001_login.py" />
         <item itemvalue="Python.temp" />
         <item itemvalue="Python.logging" />
       </list>

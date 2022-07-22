@@ -20,8 +20,8 @@ class TestUpMedia:
         page_media.ipt_up.send_keys(RunConfigEp.img_path +".png")
         page_media.btn_x.click()
         sleep(1)
-        assert RunConfigEp.img_name+'.png' == page_media.file.get_attribute("alt")
+        assert RunConfigEp.img_name+'.png' == page_media.file[0].text
 
 
 if __name__ == '__main__':
-    pytest.main(["-v", "-s", "-k", "001 or 003"])
+    pytest.main(["-v", "-s", "ignore:Module already imported:pytest.PytestWarning", "-k", "001 or 003"])

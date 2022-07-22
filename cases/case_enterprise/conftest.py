@@ -22,12 +22,13 @@ def browser():
     global driver
     if RunConfig.driver_type == 'chrome':
         # 本地Chrome浏览器
-        driver = webdriver_sel.Chrome()
+        # driver = webdriver_sel.Chrome()
         # 调试
-        # options = webdriver_sel.ChromeOptions()
-        # options.add_argument(r'--user-data-dir=C:\Users\Admin\Desktop\AutoTest\maap_v1\chromeData')
-        # options.add_argument("--profile-directory=Profile 22")
-        # driver = webdriver_sel.Chrome(options=options)
+        options = webdriver_sel.ChromeOptions()
+        options.add_argument(r'--user-data-dir=C:\Users\Admin\Desktop\AutoTest\maap_v1\chromeData')
+        options.add_argument("--profile-directory=Profile 22")
+        driver = webdriver_sel.Chrome(options=options)
+        driver.get("https://5g.fontdo.com/test/enterprise//#/template")
 
         driver.maximize_window()
     elif RunConfig.driver_type == 'firefox':

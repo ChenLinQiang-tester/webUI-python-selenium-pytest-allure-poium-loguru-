@@ -472,10 +472,6 @@ class Page(PageObject):
             describe(str): Assertion description information
             timeout(int): Maximum waiting time
         """
-
-
-        # element_exists = element.exists(timeout)
-        # self.screenshots(describe="断言")
         logging.info("预期结果: " + r1 + "==" + r2)
         try:
             assert r1 == r2

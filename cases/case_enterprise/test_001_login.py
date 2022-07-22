@@ -70,9 +70,8 @@ class TestEnterPrise:
             page_ep_login.know.click()
         with allure.step("获取断言数据：邮箱账号"):
             email_text = page_ep_login.email.text
-        page_ep_login.assert_element_exists(email_text, "chenlinq")
+        # page_ep_login.assert_element_exists(email_text, "chenlinq")
         assert email_text == conf["user"]["username"]
-        assert 1234 == conf["user"]["username"]
         with allure.step("设置缓存-账号余额"):
             self.balance = page_ep_login.balance[0].text.replace(",", "")+page_ep_login.balance[1].text
             conf.set("Balance", "balance", self.balance)

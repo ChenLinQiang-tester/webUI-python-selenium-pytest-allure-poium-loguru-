@@ -1,11 +1,11 @@
 [ {
-  "uid" : "c77226fe47066a54",
+  "uid" : "6e498472f42918d5",
   "name" : "001-登录企业平台",
   "time" : {
-    "start" : 1658159823958,
-    "stop" : 1658159848333,
-    "duration" : 24375
+    "start" : 1658482990869,
+    "stop" : 1658483004294,
+    "duration" : 13425
   },
-  "status" : "failed",
+  "status" : "passed",
   "severity" : "normal"
 } ]

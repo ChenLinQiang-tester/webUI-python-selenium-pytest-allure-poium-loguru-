@@ -1,1 +1,6 @@
 cases/case_enterprise/test_001_login.py::TestEnterPrise::test_enterprise_login
+test_001_login.py::TestEnterPrise::test_enterprise_login
+test_001_login.py::TestEnterPrise::test_enterprise_login
+test_003_up_media.py::TestUpMedia::test_up_media
+test_003_up_media.py::TestUpMedia::test_up_media
+test_003_up_media.py::TestUpMedia::test_up_media

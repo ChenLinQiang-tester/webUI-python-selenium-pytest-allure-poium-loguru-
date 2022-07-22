@@ -1,0 +1,13 @@
+allure_python_commons==2.9.45
+Appium_Python_Client==2.6.0
+func_timeout==4.3.5
+loguru==0.6.0
+Pillow==9.2.0
+pytesseract==0.3.9
+pytest==6.2.5
+pytest-rerunfailures
+selenium==4.3.0
+uiautomator2==2.16.18
+pytest-html
+pytest-ordering
+pytest-dependency
