@@ -1,7 +1,7 @@
-import sys
 import time
 from loguru import logger
 from poium import config
+from common.config import PathConfig
 
 
 class Logger:
@@ -19,7 +19,7 @@ class Logger:
         # logger.remove()
         # logger.add(sys.stderr, level=level, colorize=colorlog, format=format)
         print("生成日志文件")
-        logger.add("test_{time}.log")
+        logger.add(PathConfig.log_path+"test_{time}.log")
 
     def trace(self, msg: str):
         if config.printLog is True:

@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "cases.test_login",
+    "children" : [ {
+      "name" : "登录chenlq",
+      "uid" : "2019d251dd485b14",
+      "parentUid" : "ad8748b508876214210dcbe11e9b93c8",
+      "status" : "failed",
+      "time" : {
+        "start" : 1659891715827,
+        "stop" : 1659891731927,
+        "duration" : 16100
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "cases.test_login"
+  } ]
+}

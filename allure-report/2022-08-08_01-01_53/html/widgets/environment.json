@@ -1,0 +1,16 @@
+[ {
+  "values" : [ "win10" ],
+  "name" : "systemVersion"
+}, {
+  "values" : [ "3.9" ],
+  "name" : "pythonVersion"
+}, {
+  "values" : [ "https://wanandroid.com/index" ],
+  "name" : "baseUrl"
+}, {
+  "values" : [ "????" ],
+  "name" : "projectName"
+}, {
+  "values" : [ "chenlq" ],
+  "name" : "author"
+} ]

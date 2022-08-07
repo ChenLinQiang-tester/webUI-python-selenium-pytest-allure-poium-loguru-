@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 'chenlq' == 'chenlqa'\n  - chenlqa\n  ?       -\n  + chenlq",
+      "children" : [ {
+        "name" : "登录chenlq",
+        "uid" : "2019d251dd485b14",
+        "parentUid" : "3568390519f37697859ca93ac786f8e2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1659891715827,
+          "stop" : 1659891731927,
+          "duration" : 16100
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3568390519f37697859ca93ac786f8e2"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -1,0 +1,22 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "登录",
+    "children" : [ {
+      "name" : "登录chenlq",
+      "uid" : "2019d251dd485b14",
+      "parentUid" : "6e12e06fb17fec92464fd1fd24bca881",
+      "status" : "failed",
+      "time" : {
+        "start" : 1659891715827,
+        "stop" : 1659891731927,
+        "duration" : 16100
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "6e12e06fb17fec92464fd1fd24bca881"
+  } ]
+}

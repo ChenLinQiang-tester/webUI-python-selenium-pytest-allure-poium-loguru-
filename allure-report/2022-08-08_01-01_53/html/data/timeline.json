@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-O8KGD51",
+    "children" : [ {
+      "name" : "8992-MainThread",
+      "children" : [ {
+        "name" : "登录chenlq",
+        "uid" : "2019d251dd485b14",
+        "parentUid" : "6489dc16dc1be2c7cb6ce0b17ce12da2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1659891715827,
+          "stop" : 1659891731927,
+          "duration" : 16100
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6489dc16dc1be2c7cb6ce0b17ce12da2"
+    } ],
+    "uid" : "1ac11728bfeb96744d9b85267591f904"
+  } ]
+}

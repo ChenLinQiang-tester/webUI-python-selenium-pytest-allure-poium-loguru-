@@ -1,10 +1,10 @@
 import configparser
 import os
 
-from config import RunConfig
+from common.config import RunConfig
 
 base_path = RunConfig.base_path
-ini_path_ = os.path.join(base_path, "data", "pytest.ini")
+ini_path_ = os.path.join(base_path, "common", "pytest.ini")
 
 
 class ReadIni(object):

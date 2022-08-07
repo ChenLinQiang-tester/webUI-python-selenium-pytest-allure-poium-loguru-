@@ -1,0 +1,250 @@
+{
+  "uid" : "2019d251dd485b14",
+  "name" : "登录chenlq",
+  "fullName" : "cases.test_login.TestLogin#test_login",
+  "historyId" : "da97c1a597b04d63ebb5cb850d5bcaf4",
+  "time" : {
+    "start" : 1659891715827,
+    "stop" : 1659891731927,
+    "duration" : 16100
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 'chenlq' == 'chenlqa'\n  - chenlqa\n  ?       -\n  + chenlq",
+  "statusTrace" : "self = <test_login.TestLogin object at 0x000001A00A68E2B0>\nbrowser = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"6ae042206c86858e90af4973a1a33506\")>\n\n    @allure.title(\"登录\"+WebConfig.username)\n    def test_login(self, browser):\n        page = LoginPage(browser)\n        with allure.step(\"打开首页\"):\n            page.open(WebConfig.url)\n        with allure.step(\"点击打开登录页面\"):\n            page.login_a.click()\n        with allure.step(\"输入用户名\"):\n            page.username_input = WebConfig.username\n        with allure.step(\"输入密码\"):\n            page.password_input = WebConfig.password\n        with allure.step(\"点击登录按钮\"):\n            page.login_span.click()\n        with allure.step(\"断言主页顶部栏用户名\"):\n>           assert page.username_span.text == WebConfig.username+\"a\"\nE           AssertionError: assert 'chenlq' == 'chenlqa'\nE             - chenlqa\nE             ?       -\nE             + chenlq\n\ncases\\test_login.py:24: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "reset",
+    "time" : {
+      "start" : 1659891715824,
+      "stop" : 1659891715825,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "browser",
+    "time" : {
+      "start" : 1659891714466,
+      "stop" : 1659891715824,
+      "duration" : 1358
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 'chenlq' == 'chenlqa'\n  - chenlqa\n  ?       -\n  + chenlq",
+    "statusTrace" : "self = <test_login.TestLogin object at 0x000001A00A68E2B0>\nbrowser = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"6ae042206c86858e90af4973a1a33506\")>\n\n    @allure.title(\"登录\"+WebConfig.username)\n    def test_login(self, browser):\n        page = LoginPage(browser)\n        with allure.step(\"打开首页\"):\n            page.open(WebConfig.url)\n        with allure.step(\"点击打开登录页面\"):\n            page.login_a.click()\n        with allure.step(\"输入用户名\"):\n            page.username_input = WebConfig.username\n        with allure.step(\"输入密码\"):\n            page.password_input = WebConfig.password\n        with allure.step(\"点击登录按钮\"):\n            page.login_span.click()\n        with allure.step(\"断言主页顶部栏用户名\"):\n>           assert page.username_span.text == WebConfig.username+\"a\"\nE           AssertionError: assert 'chenlq' == 'chenlqa'\nE             - chenlqa\nE             ?       -\nE             + chenlq\n\ncases\\test_login.py:24: AssertionError",
+    "steps" : [ {
+      "name" : "打开首页",
+      "time" : {
+        "start" : 1659891715827,
+        "stop" : 1659891724035,
+        "duration" : 8208
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击打开登录页面",
+      "time" : {
+        "start" : 1659891724035,
+        "stop" : 1659891725439,
+        "duration" : 1404
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "输入用户名",
+      "time" : {
+        "start" : 1659891725439,
+        "stop" : 1659891726505,
+        "duration" : 1066
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "输入密码",
+      "time" : {
+        "start" : 1659891726505,
+        "stop" : 1659891727636,
+        "duration" : 1131
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击登录按钮",
+      "time" : {
+        "start" : 1659891727636,
+        "stop" : 1659891728797,
+        "duration" : 1161
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "断言主页顶部栏用户名",
+      "time" : {
+        "start" : 1659891728797,
+        "stop" : 1659891731927,
+        "duration" : 3130
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: assert 'chenlq' == 'chenlqa'\n  - chenlqa\n  ?       -\n  + chenlq\n",
+      "statusTrace" : "  File \"E:\\文档\\MyRepository\\ui-automation-framework\\cases\\test_login.py\", line 24, in test_login\n    assert page.username_span.text == WebConfig.username+\"a\"\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "添加失败截图...",
+      "time" : {
+        "start" : 1659891732115,
+        "stop" : 1659891732364,
+        "duration" : 249
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2f1e6ea0916e7017",
+        "name" : "失败截图",
+        "source" : "2f1e6ea0916e7017.png",
+        "type" : "image/png",
+        "size" : 294106
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 7
+  },
+  "afterStages" : [ {
+    "name" : "reset::0",
+    "time" : {
+      "start" : 1659891732364,
+      "stop" : 1659891733428,
+      "duration" : 1064
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1659891733431,
+      "stop" : 1659891735522,
+      "duration" : 2091
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-O8KGD51"
+  }, {
+    "name" : "thread",
+    "value" : "8992-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "2019d251dd485b14.json",
+  "parameterValues" : [ ]
+}

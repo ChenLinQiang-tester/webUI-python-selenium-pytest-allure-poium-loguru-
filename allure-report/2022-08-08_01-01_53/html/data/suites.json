@@ -1,0 +1,30 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "cases",
+    "children" : [ {
+      "name" : "test_login",
+      "children" : [ {
+        "name" : "TestLogin",
+        "children" : [ {
+          "name" : "登录chenlq",
+          "uid" : "2019d251dd485b14",
+          "parentUid" : "e095cbe6567a6d1a4a66d3e1db866185",
+          "status" : "failed",
+          "time" : {
+            "start" : 1659891715827,
+            "stop" : 1659891731927,
+            "duration" : 16100
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e095cbe6567a6d1a4a66d3e1db866185"
+      } ],
+      "uid" : "33ebf701f761a58373538875f0d6377d"
+    } ],
+    "uid" : "9614ab5598a04b276864cf0744ce0d93"
+  } ]
+}
